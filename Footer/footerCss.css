@@ -1,0 +1,27 @@
+html, body{
+  height: 100%;
+}
+.footer{
+  background: #222127;
+  color: #c1a26b;
+  height: 400px;
+  position: relative;
+}
+.page-wrapper{
+  min-height: 58%;
+}
+.footer .footer-content{
+  border: 4px solid #c1a26b;
+  height: 350px;
+}
+.footer .footer-bottom{
+  background: #19181c;
+  color: #c1a26b;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  position:absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
