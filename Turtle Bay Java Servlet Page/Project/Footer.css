@@ -1,0 +1,139 @@
+﻿/** @format */
+/** @format */
+
+html,
+body {
+	height: 100%;
+}
+
+.footer {
+	background: #0061ab;
+	color: white;
+	height: 397px;
+	width: 1730px;
+	position: relative;
+	top: -26px;
+	left: 102px;
+	margin-top: 10px;
+}
+
+.page-wrapper {
+	min-height: 90%;
+}
+
+.footer .footer-content {
+	border: 4px solid #9cd4ff;
+	height: 350px;
+}
+
+.footer .footer-bottom {
+	background: #001322;
+	color: white;
+	height: 70px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: -6px;
+	left: 0px;
+	padding-top: 20px;
+}
+
+.uList {
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.uList .iList {
+	list-style: none;
+}
+
+.uList .iList a {
+	display: block;
+	position: relative;
+	width: 70px;
+	height: 70px;
+	line-height: 80px;
+	font-size: 20px;
+	text-align: center;
+	background: #001322;
+	text-decoration: none;
+	color: white;
+	margin: 0 10px;
+	transition: 0.5s;
+}
+
+.uList .iList a span {
+	position: absolute;
+	transition: transform 0.5s;
+	top: 70px;
+	left: 68px;
+}
+
+.uList .iList a span:nth-child(1),
+.uList .iList a span:nth-child(3) {
+	width: 100%;
+	height: 1px;
+	background: #9cd4ff;
+}
+
+.uList .iList a span:nth-child(1) {
+	top: 0;
+	left: 0;
+	transform-origin: right;
+}
+
+.uList .iList a:hover span:nth-child(1) {
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 0.5s;
+}
+
+.uList .iList a span:nth-child(3) {
+	bottom: 0;
+	left: 0;
+	transform-origin: left;
+}
+
+.uList .iList a:hover span:nth-child(3) {
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+.uList .iList a span:nth-child(2),
+.uList .iList a span:nth-child(4) {
+	width: 1px;
+	height: 100%;
+	background: #9cd4ff;
+}
+
+.uList .iList a span:nth-child(2) {
+	top: 0;
+	left: 0;
+	transform: scaleY(0);
+	transform-origin: bottom;
+}
+
+.uList .iList a:hover span:nth-child(2) {
+	transform: scaleY(1);
+	transform-origin: top;
+	transition: transform 0.5s;
+}
+
+.uList .iList a span:nth-child(4) {
+	top: 0;
+	right: 0;
+	transform: scaleY(0);
+	transform-origin: top;
+}
+
+.uList .iList a:hover span:nth-child(4) {
+	transform: scaleY(1);
+	transform-origin: bottom;
+	transition: transform 0.5s;
+}

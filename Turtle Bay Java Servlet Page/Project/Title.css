@@ -1,0 +1,35 @@
+﻿/** @format */
+
+svg {
+	position: absolute;
+	top: 0%;
+	left: -50%;
+	width: 134%;
+	height: 350px;
+	z-index: 100;
+}
+
+svg text {
+	font-size: 80px;
+	fill: rgba(0, 0, 0, 0.1);
+	stroke-width: 1px;
+	stroke: #0061ab;
+	stroke-linejoin: round;
+	stroke-dasharray: 900;
+	animation: animate 3.5s reverse, fill 2s ease forwards 3s;
+}
+
+@keyframes animate {
+	100% {
+		stroke-dashoffset: 900;
+	}
+}
+
+@keyframes fill {
+	0% {
+		fill: transparent;
+	}
+	100% {
+		fill: #0061ab;
+	}
+}
