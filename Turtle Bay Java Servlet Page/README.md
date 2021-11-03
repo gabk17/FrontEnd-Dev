@@ -4,5 +4,4 @@
 *	Technologies: Java, HTML5, CSS, MYSQL Workbench Database 
 
 ![Showcase](Showcase1.png)
-![](Showcase2.png)
 ![](Showcase3.png)
